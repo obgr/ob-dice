@@ -1,7 +1,7 @@
 #!/bin/python3
 # ob-dice.py
 # Roll T6 dice, reroll two dice when rolling a 6.
-# Used in the Swedish tabletop/pen & paper RPG Eon
+# Used in the Swedish tabletop/pen & paper RPG Eon by Helmgast
 
 import random
 import argparse
