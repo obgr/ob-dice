@@ -37,8 +37,8 @@ def ob_dice(dicerolls, bonus):
     for i in list_of_ob_rolls:
         sum += int(i)
     # count sixes
-    for i in list_of_sixes:
-        sixes = sixes + 1
+    sixes = len(list_of_sixes)
+    # Total
     total = sum + bonus
     return sum, list_of_ob_rolls, sixes, total
 
